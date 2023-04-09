@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MonCVApp</string>
+    <string name="myname">Tran Louis</string>
+    <string name="phone">0651929202</string>
+    <string name="email">tran.louispro@gmail.com</string>
+    <string name="address">1 rue des morands, 93360 Neuilly Plaisance</string>
+
+    <string name="title_exp">Expériences</string>
+    <string name="title_form">Formation</string>
+    <string name="title_comp">Compétences</string>
+    <string name="title_lang">Langages</string>
+    <string name="title_projet">Projets</string>
+    <string name="title_return">Retour</string>
+
+
+</resources>

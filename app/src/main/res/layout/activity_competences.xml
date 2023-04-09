@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompetencesActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleExp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textColor="#F0F8FF"
+        android:background="#00308F"
+        android:fontFamily="serif"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_lang" />
+
+    <ListView
+        android:id="@+id/listViewTitleLangage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_langage"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewTitleProject"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textColor="#F0F8FF"
+        android:background="#00308F"
+        android:gravity="center"
+        android:text="@string/title_projet" />
+
+    <ListView
+        android:id="@+id/listViewProjet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_projet"/>
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:backgroundTint="#A51C30"
+        android:text="@string/title_return" />
+</LinearLayout>
